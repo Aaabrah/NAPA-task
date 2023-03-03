@@ -1,0 +1,84 @@
+img {
+    width: 100px;
+}
+
+.container {
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.profile-title {
+    font-size: 60px;
+    font-weight: bolder;
+    margin: 55px 0 40px 0;
+    color: #EC1B2E;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.profile-background-img {
+    width: 100%;
+    height: 260px;
+    position: relative;
+}
+
+.user {
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    position: absolute;
+    top: 112px;
+    left: 35px;
+}
+
+.username {
+    color: #EC1B2E;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.user-profile-img {
+    width: 100%;
+    height: 230px;
+    background-color: #cdd2d8;
+    border-radius: 50%;
+}
+
+.user-name {
+    color: #fff;
+    font-size: 40px;
+    position: absolute;
+    left: 290px;
+    top: 210px;
+}
+
+.about-user {
+    color: #6e6e6e;
+    font-size: 30px;
+    margin-top: 162px;
+}
+
+.edit-profile-btn {
+    width: 166px;
+    height: 36px;
+    color: white;
+    font-weight: bold;
+    background-color: #EC1B2E;
+    border: none;
+    position: absolute;
+    top: 280px;
+    right: 0;
+}
+
+.edit-profile-btn:hover {
+    cursor: pointer;
+    background-color: #c90c1b;
+}
+
+.edit-profile-btn:active {
+    background-color: #ee3241;
+}
